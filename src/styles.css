@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Karla:wght@400;700&family=Lato:wght@300;400;700&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+  font-family: "Karla", sans-serif;
+  font-family: "Lato", sans-serif;
+  background: rgb(18, 17, 17);
+}
+
+h4 {
+  color: whitesmoke;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  cursor: pointer;
+  margin: 30px;
+  justify-content: center;
+}
+
+.img {
+  display: flex;
+  background-color: #333;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #000;
+  padding: 10px;
+  width: 200px;
+  margin: 11px;
+}
+
+.img:hover {
+  background-color: rgba(14, 56, 164, 0.6);
+  color: #000;
+  border: 3px solid #fff;
+}
+
+img {
+  width: 90px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+input[type="text"] {
+  width: 500px;
+  height: 30px;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+input[type="text"]:focus {
+  outline: none;
+}
+
+button {
+  width: 150px;
+  margin-left: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 15px;
+  border: none;
+  color: #fff;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  border-radius: 5px;
+}
